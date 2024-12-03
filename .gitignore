@@ -31,7 +31,6 @@
 *.out
 *.app
 
-**/input
-**/testinput
+**/*input*
 
 .vscode/
