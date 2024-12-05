@@ -18,7 +18,7 @@ int main()
         int x = 0, prod = 1;
         string::iterator it = line.begin(), i = mul_instruct.begin();
         while (it != line.end()) {
-            cout << "sum: " << sum << "| c: " << *it << "| i: " << i - mul_instruct.begin() << "| x: " << x << "| prod: " << prod << endl;
+            // cout << "sum: " << sum << "| c: " << *it << "| i: " << i - mul_instruct.begin() << "| x: " << x << "| prod: " << prod << endl;
             if (*i == 'x') {
                 if (isdigit(*it)) {
                     x = 10 * x + (*it - '0');

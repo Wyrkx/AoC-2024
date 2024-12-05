@@ -76,16 +76,16 @@ int main()
         int x = 0, prod = 1;
         string::iterator it = line.begin(), mul_it = mul_instruct.begin(), do_it = do_instruct.begin(), dont_it = dont_instruct.begin();
         while (it != line.end()) {
-            cout << "sum: " << sum 
-                 << "| enabled: " << enabled 
-                 << "| c: " << *it 
-                 << "| it: " << it - line.begin()
-                 << "| mul_it: " << mul_it - mul_instruct.begin() 
-                 << "| do_it: " << do_it - do_instruct.begin()
-                 << "| dont_it: " << dont_it - dont_instruct.begin()
-                 << "| x: " << x 
-                 << "| prod: " << prod 
-                 << endl;
+            // cout << "sum: " << sum 
+            //      << "| enabled: " << enabled 
+            //      << "| c: " << *it 
+            //      << "| it: " << it - line.begin()
+            //      << "| mul_it: " << mul_it - mul_instruct.begin() 
+            //      << "| do_it: " << do_it - do_instruct.begin()
+            //      << "| dont_it: " << dont_it - dont_instruct.begin()
+            //      << "| x: " << x 
+            //      << "| prod: " << prod 
+            //      << endl;
             if (enabled) {
                 if (checkMul(it, mul_instruct, mul_it, x, prod, sum)) continue;
                 else if (checkDont(it, dont_instruct, dont_it, enabled)) continue;
