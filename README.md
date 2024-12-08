@@ -11,7 +11,7 @@ Mainly doing this to learn C++.
 |02    	| :white_check_mark:| :white_check_mark:|
 |03 	| :white_check_mark:| :white_check_mark:|
 |04 	| :white_check_mark:| :white_check_mark:|
-|05 	|   	|   	|
+|05 	| :white_check_mark:| :white_check_mark:|
 |06 	|   	|   	|
 |07 	|   	|   	|
 |08 	|   	|   	|
